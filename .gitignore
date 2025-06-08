@@ -1,0 +1,49 @@
+.DS_Store
+node_modules
+node_modules/
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+
+# Logs
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+dist/
+build/
+
+# Entorno virtual
+venv/
+env/
+
+# Archivos de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+backend/app/__pycache__/
+# Ignorar logs
+logs/
