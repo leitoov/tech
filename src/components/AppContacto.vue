@@ -82,7 +82,7 @@
       <!-- Botón de correo directo -->
       <div class="text-center mt-8 opacity-0 translate-y-[20px] animate-fade-in-up delay-300">
         <a
-          href="mailto:leonelexequeilviencent@gmail.com"
+          href="mailto:leonelexequielvincent@gmail.com"
           class="text-nefe-gold-300 font-semibold hover:text-nefe-gold-400 transition"
         >
           O envíanos un correo directamente

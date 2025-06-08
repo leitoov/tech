@@ -4,10 +4,6 @@ node_modules/
 /dist
 
 
-# local env files
-.env.local
-.env.*.local
-
 # Log files
 npm-debug.log*
 yarn-debug.log*
@@ -22,7 +18,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-.env
 
 # Logs
 *.log
@@ -37,7 +32,7 @@ build/
 
 # Entorno virtual
 venv/
-env/
+
 
 # Archivos de Python
 *.pyc
