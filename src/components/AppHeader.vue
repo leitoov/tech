@@ -1,13 +1,13 @@
 <template>
   <header
     :class="[
-      'w-full flex justify-between items-center p-4 bg-nefe-beige-200 text-white transition-all duration-300 fixed top-0 left-0 z-50',
+      'w-full flex justify-between items-center p-3 bg-nefe-beige-200 text-white transition-all duration-300 fixed top-0 left-0 z-50',
       isAtTop ? 'opacity-100' : 'opacity-90',
       isAtTop ? 'shadow-none' : 'shadow-md'
     ]"
   >
     <div class="flex items-center">
-      <img src="@/assets/X2.png" alt="Logo NefeTech" class="h-10 w-auto" />
+      <img src="@/assets/X2.png" alt="Logo NefeTech" class="w-20" />
     </div>
 
     <!-- Menú de escritorio -->

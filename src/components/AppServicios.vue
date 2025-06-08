@@ -17,11 +17,7 @@
           @click="redirectToWhatsApp('Desarrollo de Sitios Web')"
         >
           <div class="bg-nefe-gold-300 text-white rounded-full p-4 mb-4">
-            <!-- Ícono de desarrollo web -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v16a1 1 0 01-1 1H4a1 1 0 01-1-1V4z" />
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9h8M8 13h5" />
-            </svg>
+            <span class="material-symbols-outlined icon-size">code_blocks</span>
           </div>
           <h3 class="text-xl font-bold mb-2">Desarrollo de Sitios Web</h3>
           <p class="text-nefe-brown-400 leading-relaxed">
@@ -35,10 +31,7 @@
           @click="redirectToWhatsApp('Aplicaciones Móviles')"
         >
           <div class="bg-nefe-gold-300 text-white rounded-full p-4 mb-4">
-            <!-- Ícono de aplicaciones móviles -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4h10M7 20h10M12 4v16" />
-            </svg>
+            <span class="material-symbols-outlined icon-size">smartphone</span>
           </div>
           <h3 class="text-xl font-bold mb-2">Aplicaciones Móviles</h3>
           <p class="text-nefe-brown-400 leading-relaxed">
@@ -52,10 +45,7 @@
           @click="redirectToWhatsApp('Sistemas de Gestión')"
         >
           <div class="bg-nefe-gold-300 text-white rounded-full p-4 mb-4">
-            <!-- Ícono de sistemas de gestión -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M9 16h6M9 8h6M4 6h16M4 18h16" />
-            </svg>
+            <span class="material-symbols-outlined icon-size">tune</span>
           </div>
           <h3 class="text-xl font-bold mb-2">Sistemas de Gestión</h3>
           <p class="text-nefe-brown-400 leading-relaxed">
@@ -69,10 +59,7 @@
           @click="redirectToWhatsApp('Asesoramiento y Acompañamiento')"
         >
           <div class="bg-nefe-gold-300 text-white rounded-full p-4 mb-4">
-            <!-- Ícono de asesoramiento -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h8M8 14h8M12 18h0M12 6h0" />
-            </svg>
+            <span class="material-symbols-outlined icon-size">support_agent</span>
           </div>
           <h3 class="text-xl font-bold mb-2">Asesoramiento y Acompañamiento</h3>
           <p class="text-nefe-brown-400 leading-relaxed">
@@ -86,10 +73,7 @@
           @click="redirectToWhatsApp('Diseño de Marca')"
         >
           <div class="bg-nefe-gold-300 text-white rounded-full p-4 mb-4">
-            <!-- Ícono de diseño de marca -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16M8 8h8M8 16h8" />
-            </svg>
+            <span class="material-symbols-outlined icon-size">palette</span>
           </div>
           <h3 class="text-xl font-bold mb-2">Diseño de Marca</h3>
           <p class="text-nefe-brown-400 leading-relaxed">
@@ -103,10 +87,7 @@
           @click="redirectToWhatsApp('Redes Sociales')"
         >
           <div class="bg-nefe-gold-300 text-white rounded-full p-4 mb-4">
-            <!-- Ícono de redes sociales -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16M8 8h8M8 16h8" />
-            </svg>
+            <span class="material-symbols-outlined icon-size">campaign</span>
           </div>
           <h3 class="text-xl font-bold mb-2">Redes Sociales</h3>
           <p class="text-nefe-brown-400 leading-relaxed">
@@ -145,6 +126,11 @@ export default {
 
 .card {
   animation: fade-in-up 0.8s ease-out forwards;
-  opacity: 0; 
+  opacity: 0;
+}
+
+.material-symbols-outlined.icon-size {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+  font-size: 3rem;
 }
 </style>
