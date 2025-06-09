@@ -7,10 +7,10 @@
                     class="md:w-1/2 opacity-0 translate-x-[-50px] animate-slide-in-left"
                 >
                     <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
-                        Transformamos tus ideas en soluciones digitales únicas
+                        Creamos soluciones digitales ágiles, personalizadas y con impacto real
                     </h1>
                     <p class="mt-6 text-lg text-nefe-brown-400">
-                        En NefeTech, combinamos tecnología y creatividad para desarrollar sitios web, aplicaciones móviles y sistemas a medida que se adaptan a tus necesidades, con una atención personalizada que marca la diferencia.
+                        En NefeTech transformamos tus ideas en soluciones digitales ágiles, funcionales y hechas a medida. Nos enfocamos en brindarte resultados concretos con una atención cercana que hace la diferencia.
                     </p>
                     <div class="mt-8 flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
                         <a href="#servicios" class="bg-nefe-gold-300 text-nefe-brown-600 px-6 py-3 rounded-md font-semibold hover:bg-nefe-gold-400 transition flex items-center justify-center">
